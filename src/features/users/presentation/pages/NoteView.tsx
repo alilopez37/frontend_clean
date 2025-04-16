@@ -8,7 +8,6 @@ type Props = {
 };
 
 export const NoteView = observer(({ viewModel }: Props) => {
-  //const viewModel = new NoteViewModel();
   const navigate = useNavigate();
 
   useEffect(() => {
